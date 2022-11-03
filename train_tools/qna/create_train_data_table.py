@@ -75,7 +75,7 @@ def insert_data(db, xls_row):
         print('{} 저장'.format(query.value))
         db.commit()
 
-train_file = 'C:\\Users\\tlsal\\Github\\Chat_Bot\\train_tools\\qna\\train_data.xlsx'
+train_file = '.\\train_tools\\qna\\train_data.xlsx'
 db = None
 try:
     # DB 호스트 정보에 맞게 입력해주세요.
