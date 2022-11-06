@@ -9,7 +9,7 @@ from config.DatabaseConfig import *   # DB 접속 정보 불러오기
 #     db = pymysql.connect(
 #         host = DB_HOST,
 #         user = DB_USER,
-#         passwd = DB_PASSSWORD,
+#         passwd = DB_PASSWORD,
 #         db = DB_NAME,
 #         charset = 'utf8'
 #     )
@@ -82,7 +82,7 @@ try:
     db = pymysql.connect(
         host = DB_HOST,
         user = DB_USER,
-        passwd = DB_PASSSWORD,
+        passwd = DB_PASSWORD,
         db = DB_NAME,
         charset = 'utf8'
     )
