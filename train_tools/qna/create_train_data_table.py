@@ -105,4 +105,3 @@ finally:
     if db is not None:
         db.close()
 
-# train_data 엑셀 파일 위치 확인
