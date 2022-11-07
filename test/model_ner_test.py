@@ -13,3 +13,6 @@ predicts = ner.predict(query)
 tags = ner.predict_tags(query)
 print(predicts)
 print(tags)
+
+asdasd
+asdsad
